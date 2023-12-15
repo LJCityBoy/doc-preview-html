@@ -1,0 +1,22 @@
+{
+  "name": "doc-preview-html",
+  "version": "1.0.0",
+  "description": "docx preview tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docx",
+    "preview",
+    "docx文件预览"
+  ],
+  "author": "jiang.li",
+  "license": "ISC",
+  "dependencies": {
+    "docxtemplater": "^3.42.4",
+    "mammoth": "^1.6.0",
+    "pizzip": "^3.1.4"
+  },
+  "devDependencies": {}
+}

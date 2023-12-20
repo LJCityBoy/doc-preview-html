@@ -24,7 +24,7 @@
 
 <script setup>
 import { ref, onMounted } from "vue";
-import { docFile2html } from "./components/DocPreview.js";
+import { docFile2html } from "doc-preview-html";
 
 const content = ref();
 

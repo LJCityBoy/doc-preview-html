@@ -1,6 +1,6 @@
 {
   "name": "doc-preview-html",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "docx preview tool",
   "main": "index.js",
   "sideEffects": false,

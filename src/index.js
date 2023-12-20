@@ -64,3 +64,5 @@ export const docFile2html = (file, bodyContainer, header) => {
     }
   });
 };
+
+export default docFile2html

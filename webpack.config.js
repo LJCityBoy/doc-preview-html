@@ -1,9 +1,10 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/index.js', // 入口文件路径
+  entry: './preview.js', // 入口文件路径
   output: {
     path: path.resolve(__dirname, './'), // 输出目录路径
+    libraryExport: 'default',
     filename: 'index.js' // 输出文件名
   },
   mode: 'production',
@@ -28,8 +29,4 @@ module.exports = {
         path: require.resolve('path-browserify')
       }
   },
-  devServer: {
-    contentBase: path.resolve(__dirname, 'dist'), // 开发服务器的根目录为 dist 目录
-    port: 8080 // 开发服务器监听的端口号
-  }
 };
